@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <h1><br><br>  ToDo Application <br> </h1>
+    <br>
+    <br>
+    <div class="container">
+    <input placeholder="Enter ToDo"  id="toDo">
+    <i style="font-size: 20px;" class="glyphicon glyphicon-plus" onclick="todoApp()"></i>
+    <i style="font-size: 20px;" class="fa fa-refresh" onclick="allDelete()" style="font-size: 15px;"></i>
+    </div>
+
+    <div>
+        <ul id="list">
+    
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
